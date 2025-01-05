@@ -1,5 +1,5 @@
 # minifetch
-Repository service as a [Neofetch]() clone written in python.
+Repository serves as a [Neofetch]() clone written in python.
 
 ![](assets/output.png)
 ## Running script
