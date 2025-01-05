@@ -1,13 +1,13 @@
 # minifetch
 **Note: project was created for fun and not recommended for use.**
 
-Repository serves as a [Neofetch]() clone written in python.
+Repository serves as a [Neofetch](https://github.com/dylanaraps/neofetch) clone written in python.
 
 ![](assets/output.png)
 ## Running script
 `git clone https://github.com/dsinpy/minifetch.git && cd minifetch`
 
-To run a script [uv]() must be installed, then from project directory:
+To run a script [uv](https://github.com/astral-sh/uv) must be installed, then from project directory:
 
 `uv run minifetch.py`
 
