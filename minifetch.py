@@ -127,6 +127,7 @@ def main() -> None:
     table.add_row(Text("Host: ", style=label_style), Text(hostname(), style=value_syle))
     table.add_row(Text("Kernel: ", style=label_style), Text(kernel(), style=value_syle))
     table.add_row(Text("Uptime: ", style=label_style), Text(uptime(), style=value_syle))
+    table.add_row(Text("Packages: ", style=label_style), Text(packages(), style=value_syle))
     table.add_row(Text("Shell: ", style=label_style), Text(shell(), style=value_syle))
     table.add_row(Text("Resolution: ", style=label_style), Text(resolution(), style=value_syle))
     table.add_row(Text("DE: ", style=label_style), Text(desktop_environment(), style=value_syle))
