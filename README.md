@@ -13,3 +13,8 @@ To run a script [uv]() must be installed, then from project directory:
 
 That will create .venv inside project, install all dependencies and then run a script. 
 
+## Aliasing
+If you want to have shell alias for the script, you can add this line to ~/.zshrc or ~/.bashrc:
+
+`alias minifetch="uv --directory PATH_TO_MINIFETCH_DIR run minifetch.py"`
+
