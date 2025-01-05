@@ -1,0 +1,13 @@
+exclude = [
+    ".git",
+    ".ipynb_checkpoints",
+    ".ruff_cache",
+    ".venv",
+]
+
+line-length = 88
+indent-width = 4
+
+[format]
+quote-style = "double"
+
