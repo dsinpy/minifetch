@@ -1,7 +1,3 @@
-# Tools-generated files
-uv.lock
-.ruff_cache
-
 # Python-generated files
 __pycache__/
 *.py[oc]
@@ -12,3 +8,11 @@ wheels/
 
 # Virtual environments
 .venv
+
+# Tools-generated files
+uv.lock
+.ruff_cache
+
+# Custom files
+ruff.toml
+.envrc
