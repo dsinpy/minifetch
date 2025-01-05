@@ -1,4 +1,5 @@
 # minifetch
+**Note: project was created for fun and not recommended for use.**
 Repository serves as a [Neofetch]() clone written in python.
 
 ![](assets/output.png)
