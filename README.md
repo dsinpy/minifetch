@@ -1,5 +1,7 @@
 # minifetch
-![Repository service as a [Neofetch]() clone written in python.](assets/output.png)
+Repository service as a [Neofetch]() clone written in python.
+
+![](assets/output.png)
 ## Running script
 `git clone https://github.com/dsinpy/minifetch.git && cd minifetch`
 
