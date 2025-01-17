@@ -119,26 +119,26 @@ def main() -> None:
     table = Table(show_header=False, box=None)
     
     label_style = "bold cyan"
-    value_syle = "white"
+    values_style = "white"
     
     table.add_row(Text(s := f"{username()}@{hostname()}", style=label_style))
     table.add_row(Text("-" * len(s), style=label_style))
-    table.add_row(Text("OS: ", style=label_style), Text(os_(), style=value_syle))
-    table.add_row(Text("Host: ", style=label_style), Text(hostname(), style=value_syle))
-    table.add_row(Text("Kernel: ", style=label_style), Text(kernel(), style=value_syle))
-    table.add_row(Text("Uptime: ", style=label_style), Text(uptime(), style=value_syle))
-    table.add_row(Text("Packages: ", style=label_style), Text(packages(), style=value_syle))
-    table.add_row(Text("Shell: ", style=label_style), Text(shell(), style=value_syle))
-    table.add_row(Text("Resolution: ", style=label_style), Text(resolution(), style=value_syle))
-    table.add_row(Text("DE: ", style=label_style), Text(desktop_environment(), style=value_syle))
-    table.add_row(Text("WM: ", style=label_style), Text(window_manager(), style=value_syle))
-    table.add_row(Text("Terminal: ", style=label_style), Text(terminal(), style=value_syle))
-    table.add_row(Text("CPU: ", style=label_style), Text(cpu(), style=value_syle))
+    table.add_row(Text("OS: ", style=label_style), Text(os_(), style=values_style))
+    table.add_row(Text("Host: ", style=label_style), Text(hostname(), style=values_style))
+    table.add_row(Text("Kernel: ", style=label_style), Text(kernel(), style=values_style))
+    table.add_row(Text("Uptime: ", style=label_style), Text(uptime(), style=values_style))
+    table.add_row(Text("Packages: ", style=label_style), Text(packages(), style=values_style))
+    table.add_row(Text("Shell: ", style=label_style), Text(shell(), style=values_style))
+    table.add_row(Text("Resolution: ", style=label_style), Text(resolution(), style=values_style))
+    table.add_row(Text("DE: ", style=label_style), Text(desktop_environment(), style=values_style))
+    table.add_row(Text("WM: ", style=label_style), Text(window_manager(), style=values_style))
+    table.add_row(Text("Terminal: ", style=label_style), Text(terminal(), style=values_style))
+    table.add_row(Text("CPU: ", style=label_style), Text(cpu(), style=values_style))
 
     for gpu in gpus():
-        table.add_row(Text("GPU: ", style=label_style), Text(gpu, style=value_syle))
+        table.add_row(Text("GPU: ", style=label_style), Text(gpu, style=values_style))
     
-    table.add_row(Text("Memory: ", style=label_style), Text(memory(), style=value_syle))
+    table.add_row(Text("Memory: ", style=label_style), Text(memory(), style=values_style))
 
     with open("logo.txt") as file:
         logo_text = file.read()
